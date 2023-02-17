@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>post_detail</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body> 
+ <div class="jumbotron my-0">    
+  <h1 class="text-primary text-center">Hello 개인프로젝트</h1>
+ </div>
+
+ <nav class="navbar navbar-expand-sm bg-success navbar-dark">
+  <a class="navbar-brand" href="#"></a>
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="login.html">login</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="video.html">video</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="join.html">join</a>
+    </li>
+  
+    <li class="nav-item">
+      <a class="nav-link" href="post_list.html">post_list</a>
+    </li>
+    
+    <li class="nav-item">
+     <a class="nav-link" href="post_form.html">post_form</a>
+    </li>
+  </ul>
+</nav> 
+
+<div class="container text-center py-4">
+    <h3 class="my-4">post_detail</h3>
+       <div class="row">
+           <div class="col-md-8 offset-md-2">
+                <div class="card bg-light">
+                  <div class="card-body text-left">
+                    <p class="card-title"> <h4>제목: 초절정 꽃샘추위</h4> </p>
+                    <p class="card-text">
+                       3월초 시베리아 지역 찬공기유입으로 인한 찬공기와
+                       중국지역 황사먼지, 고온이상현상으로 인한 일교차가 심해 
+                       봄철 독감이 다시 극성입니다
+                    </p>
+                      <div class="float-right">
+                        <button class="btn btn-primary">글쓰기화면</button>
+                        <button class="btn btn-success">글리스트</button>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+
+    <!--댓글 쓰기 form-->
+    <div class="row">
+           <div class="col-md-8 offset-md-2">
+               <h4 class="m-4">reply댓글화면</h4>
+                <form action="" method="post">
+                    <input type="text" name="name" id="name" placeholder="작성자" class="form-control">
+                    <label for="msg">*댓글내용을 아래에 입력하세요*</label>
+                    <textarea name="msg" id="msg" rows="4" class="form-control"></textarea>
+                    <button class="btn btn-primary">댓글글쓰기</button>
+                    <button class="btn btn-success">댓글글쓰기</button>
+                </form>
+           </div>
+    </div>
+</div>
+</body>
+</html>
